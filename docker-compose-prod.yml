@@ -45,7 +45,7 @@ services:
       dockerfile: Dockerfile-prod
     restart: always
     ports:
-      - 80:80
+      - 8084:80
     depends_on:
       - users
       - client  # new
